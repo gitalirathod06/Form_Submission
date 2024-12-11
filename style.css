@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgb(30, 95, 130);
+    /* background-image: url(https://onlinejobjspiders.netlify.app/img/background1.jpg); */
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-family: "Old English Text MT", sans-serif;
+    text-shadow: 0px 0px 10px rgb(168, 115, 115);
+    /* color:rgb(13, 76, 109); */
+}
+
+fieldset
+{
+    background-color:rgb(134, 183, 209);
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    font-family: "Comic Sans MS",sans-serif;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin:10px;
+
+}
+
+legend,input[type="button"]
+{
+padding:15px;
+background:linear-gradient(to right, rgb(14, 113, 167), rgb(135, 168, 185)) ; 
+
+/* background-image:url(https://onlinejobjspiders.netlify.app/img/background2.jpg) ; */
+border-radius: 0px 15px 0px 15px;
+border:2px solid black;
+font-family: "Old English Text MT", sans-serif;
+font-weight:bold ;
+
+}
+
+table
+{
+    width:100%;
+    /* font-family: "Comic Sans MS",sans-serif; */
+    font-weight: bold;
+}
+
+input[type="text"],textarea,input[type="time"],input[type="number"],input[type="date"],input[type="month"],select
+
+{
+   outline: none;
+   border:none; 
+   width: 200px;
+   padding: 8px;
+   border-radius:5px;
+   font-size: 17px;
+   margin: 5px;
+}
+
+th{
+    text-align:left;
+}
+
+input[type="button"]
+{
+    width: 150px;
+    margin: 15px;
+    font-size:20px ;
+   
+}
+legend:hover,input[type="button"]:hover
+{
+ box-shadow:0px 0px 10px rosybrown;
+ border:2px solid white ;
+ text-shadow: 0px 0px 10px rgb(139, 93, 93);
+ color:rgb(130, 24, 24);
+}
+
+input[type="text"]:focus,textarea:focus,input[type="time"]:focus,input[type="number"]:focus,input[type="date"]:focus,input[type="month"]:focus,select:focus
+
+{
+    background-color: rgb(103, 174, 212);
+    box-shadow:0px 0px 10px black ;
+}
